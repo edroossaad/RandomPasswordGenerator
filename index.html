@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- <h1 id="pwd"></h1> -->
+    <div class="container">
+        <input type="text" id="pwd" placeholder="Generated Password" >
+    <button id="copy">Copy</button>
+      
+            <input type="range"id="range" min="6" max="20"value="8">
+            <div id="range_val"></div>
+      
+        <form action="">
+            <div class="checkbox">
+                <input type="checkbox" id="uppercase" >
+                <label for="uppercase">Uppercase</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="lowercase" >
+                <label for="lowercase">Lowercase</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="numbers" >
+                <label for="numbers">Numbers</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Symbols</label>
+            </div>
+           
+        </form>
+        <button id="btn" type="submit">Generate Password</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
