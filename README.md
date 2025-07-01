@@ -31,7 +31,7 @@ A simple and customizable Random Password Generator built with HTML, CSS, and Ja
 3.Open index.html in your browser:
   open index.html  # or just double-click it
   
-📋 Customization
+#📋 Customization
 You can modify the following in script.js (or wherever you handle logic):
 
 Default password length
